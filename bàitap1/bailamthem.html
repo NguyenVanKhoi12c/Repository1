@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LamThem</title>
+</head>
+<body>
+<script>
+    function lamthem() {
+        let n = Number(document.getElementById('sodiem').value);
+        if(n >= 75)
+        {
+            alert('loai A');
+        } else if (60 <= n && n < 75){
+            alert('loai B');}
+        else if (45 <= n && n<60){
+            alert('loai C');}
+        else if (35 <= n && n< 45){
+            alert('loai D');}
+        else if (n < 35){
+            alert('loai E');}
+    }
+</script>
+<input type="text" id="sodiem">
+<button type="button" onclick="lamthem()">click</button>
+</body>
+</html>
