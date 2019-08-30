@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vong lap</title>
+</head>
+<body>
+<script>
+    function vonglap() {
+        let n = document.getElementById('n').value;
+        let array = n.split(',');
+        let max = Number(array[0]);
+        for (n = 1;n < array.length;n++)
+            if (max <= Number(array[n]))
+                max = Number(array[n]);
+        alert(max);
+    }
+</script>
+<input id="n">
+<button type="button" onclick="vonglap()">Click</button>
+</body>
+</html>
