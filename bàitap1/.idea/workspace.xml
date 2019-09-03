@@ -11,10 +11,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="XSLT Stylesheet" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baitap3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bàitap4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,7 +67,7 @@
       <updated>1567130489499</updated>
       <workItem from="1567130498771" duration="5573000" />
       <workItem from="1567150161442" duration="2302000" />
-      <workItem from="1567472614854" duration="7418000" />
+      <workItem from="1567472614854" duration="8081000" />
     </task>
     <servers />
   </component>
