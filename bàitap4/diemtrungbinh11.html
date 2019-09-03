@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex-1</title>
+</head>
+<body>
+Enter the score Physical: <input id="Physical" oninput="avarageScore()"><br>
+Enter the score Chemistry: <input id="Chemistry" oninput="avarageScore()"><br>
+Enter the score Biological: <input id="Biological"oninput="avarageScore()"><br>
+result avarage: <P id="result"></P>
+total avarage: <p id="total"></p>
+<script>
+    function avarageScore() {
+        let ScorePhisical = document.getElementById('Physical').value;
+        let ScoreChemistry = document.getElementById('Chemistry').value;
+        let ScoreBiologial = document.getElementById('Biological').value;
+        ScorePhisical=Number(ScorePhisical);
+        ScoreChemistry=Number(ScoreChemistry);
+        ScoreBiologial=Number(ScoreBiologial);
+        let result;
+        result = (ScoreBiologial+ScoreChemistry+ScorePhisical)/3;
+        total = ScoreBiologial+ScoreChemistry+ScorePhisical;
+        document.getElementById('result').innerHTML=result;
+        document.getElementById('total').innerHTML=total;
+    }
+</script>
+</body>
+</html>
