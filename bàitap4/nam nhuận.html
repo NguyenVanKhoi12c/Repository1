@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>khiemtranamhoc</title>
+</head>
+<body>
+   <script>
+       var year = prompt("enter a year");
+       year=Number(year);
+
+       var isLeapYear = false;
+
+       var isDivisibleBy4 = year % 4 == 0;
+       if (isDivisibleBy4==true){
+           var isDivisibleBy100 = year % 100 == 0;
+           if (isDivisibleBy100) {
+               var isDivisibleBy400 = year % 400 == 0;
+               if (isDivisibleBy400) {
+                   isLeapYear = true;
+               }
+           } else {
+               isLeapYear = true;
+           }
+       }
+       if (isLeapYear==true){
+           alert(year + " is a leap year");
+       } else {
+           alert(year +" is liot a leap year");
+       }
+  â </script>
+</body>
+</html>
