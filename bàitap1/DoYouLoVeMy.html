@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>You must love me</title>
+    <meta charset=utf-8"/>
+</head>
+<body>
+<h1 style="position:absolute; left:220px; top:175px;">Bạn có yêu mình không?</h1>
+<input type="button" value=" Co " onclick="yes()" style="position:absolute; left:285px; top:235px;"/>
+<input type="button" id="btnNo" value="  Never  " onmouseover="noHover()"
+       style="position:absolute; left:360px; top:235px;"/>
+<script type="text/javascript">
+    function yes() {
+        alert("co chu hihi ");
+    }
+    function noHover() {
+        let RandomWidth =  Math.random()*window.innerWidth;
+        let RandomHeight =  Math.random()*window.innerHeight;
+        document.getElementById('btnNo').style.left = RandomWidth + 'px';
+        document.getElementById('btnNo').style.top = RandomHeight + 'px';
+        alert('khong co dau nhe');
+    }
+</script>
+</body>
+</html>
