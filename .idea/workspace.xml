@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bàitap2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baitap3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,8 +32,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Git\Repository1\bàitap4" />
       <recent name="E:\Git\Repository1\bàitap2" />
+      <recent name="E:\Git\Repository1\bàitap4" />
       <recent name="E:\Git\Repository1\baitap3" />
       <recent name="E:\Git\Repository1\bàitap1" />
       <recent name="E:\Git\Repository1\.idea" />
@@ -62,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567646819936</updated>
       <workItem from="1567646821379" duration="17709000" />
-      <workItem from="1567734663380" duration="4436000" />
+      <workItem from="1567734663380" duration="10039000" />
+      <workItem from="1567912545722" duration="204000" />
     </task>
     <servers />
   </component>
