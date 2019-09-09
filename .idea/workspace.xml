@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bàitap2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baitap3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +66,7 @@
       <workItem from="1567734663380" duration="10039000" />
       <workItem from="1567912545722" duration="3595000" />
       <workItem from="1567990648784" duration="4842000" />
-      <workItem from="1568010990678" duration="5149000" />
+      <workItem from="1568010990678" duration="10641000" />
     </task>
     <servers />
   </component>
