@@ -12,6 +12,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,8 +33,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Git\Repository1\bàitap1" />
       <recent name="E:\Git\Repository1\bàitap2" />
+      <recent name="E:\Git\Repository1\bàitap1" />
       <recent name="E:\Git\Repository1\baitap3" />
       <recent name="E:\Git\Repository1\bàitap4" />
       <recent name="E:\Git\Repository1\.idea" />
@@ -64,7 +65,8 @@
       <workItem from="1567646821379" duration="17709000" />
       <workItem from="1567734663380" duration="10039000" />
       <workItem from="1567912545722" duration="3595000" />
-      <workItem from="1567990648784" duration="586000" />
+      <workItem from="1567990648784" duration="4842000" />
+      <workItem from="1568010990678" duration="5149000" />
     </task>
     <servers />
   </component>
