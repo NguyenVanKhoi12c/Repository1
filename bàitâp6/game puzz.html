@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game puzz</title>
+</head>
+<body>
+
+<img src="../bàitap2/1.jpg" id="1" height="280" width="300" alt="1" style="left: 10px;top: 10px"
+     onclick="chuyenanh1(this.id)"/>
+<img src="../bàitap2/2.jpg" id="2" height="280" width="300" alt="2" style="left: 10px;top: 10px"
+     onclick="chuyenanh1(this.id)"/>
+<img src="../bàitap2/3.jpg" id="3" height="280" width="300" alt="3" style="left: 10px;top: 10px"
+     onclick="chuyenanh1(this.id)"/>
+<script>
+    function chuyenanh1(id) {
+        let imga = document.getElementById(id);
+        switch (imga.alt) {
+            case"1":
+                imga.alt = "2";
+                imga.src = "../bàitap2/2.jpg";
+                break;
+            case"2":
+                imga.alt = "3";
+                imga.src = "../bàitap2/3.jpg";
+                break;
+            case "3":
+                imga.alt = "1";
+                imga.src = "../bàitap2/1.jpg";
+                break;
+        }
+    }
+</script>
+    </body>
+    < /html>

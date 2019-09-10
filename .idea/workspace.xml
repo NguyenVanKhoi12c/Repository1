@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/baitap3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bàitâp6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,11 +33,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Repository1\baitap3" />
+      <recent name="E:\Git\Repository1\bàitâp6" />
       <recent name="E:\Git\Repository1\bàitap2" />
       <recent name="E:\Git\Repository1\bàitap1" />
-      <recent name="E:\Git\Repository1\baitap3" />
       <recent name="E:\Git\Repository1\bàitap4" />
-      <recent name="E:\Git\Repository1\.idea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,7 +66,8 @@
       <workItem from="1567734663380" duration="10039000" />
       <workItem from="1567912545722" duration="3595000" />
       <workItem from="1567990648784" duration="4842000" />
-      <workItem from="1568010990678" duration="10641000" />
+      <workItem from="1568010990678" duration="11401000" />
+      <workItem from="1568077336557" duration="5995000" />
     </task>
     <servers />
   </component>
