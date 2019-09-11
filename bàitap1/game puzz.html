@@ -2,16 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>game puzz</title>
+    <title>Game Puzz</title>
 </head>
 <body>
 
-<img src="../bàitap2/1.jpg" id="1" height="280" width="300" alt="1" style="left: 10px;top: 10px"
+<img src="../bàitap2/1.jpg" id="1" height="300" width="300" alt="1" style="left: 10px;top: 10px"
      onclick="chuyenanh1(this.id)"/>
-<img src="../bàitap2/2.jpg" id="2" height="280" width="300" alt="2" style="left: 10px;top: 10px"
+<img src="../bàitap2/2.jpg" id="2" height="300" width="300" alt="2" style="left: 10px;top: 10px"
      onclick="chuyenanh1(this.id)"/>
-<img src="../bàitap2/3.jpg" id="3" height="280" width="300" alt="3" style="left: 10px;top: 10px"
+<img src="../bàitap2/3.jpg" id="3" height="300" width="300" alt="3" style="left: 10px;top: 10px"
+     onclick="chuyenanh1(this.id)"/><br/>
+<img src="../bàitap2/4.jpg" id="4" height="300" width="300" alt="4" style="left: 10px;top: 10px"
      onclick="chuyenanh1(this.id)"/>
+<img src="../bàitap2/5.jpg" id="5" height="300" width="300" alt="5" style="left: 10px;top: 10px"
+     onclick="chuyenanh1(this.id)"/>
+<img src="../bàitap2/6.jpg" id="6" height="300" width="300" alt="6" style="left: 10px;top: 10px"
+     onclick="chuyenanh1(this.id)"/><
 <script>
     function chuyenanh1(id) {
         let imga = document.getElementById(id);
@@ -25,6 +31,18 @@
                 imga.src = "../bàitap2/3.jpg";
                 break;
             case "3":
+                imga.alt = "4";
+                imga.src = "../bàitap2/4.jpg";
+                break;
+            case "4":
+                imga.alt = "5";
+                imga.src = "../bàitap2/5.jpg";
+                break;
+            case "5":
+                imga.alt = "6";
+                imga.src = "../bàitap2/6.jpg";
+                break;
+            case "6":
                 imga.alt = "1";
                 imga.src = "../bàitap2/1.jpg";
                 break;
