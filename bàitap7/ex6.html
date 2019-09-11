@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+giá trị tổng doanh thu bán hàng <input type="text" id="0">
+<button type="button" onclick="Commission()">Click</button>
+<script>
+    function Commission() {
+        let hoahong=0;
+        let doanhso = +(document.getElementById('0').value);
+        if (doanhso <= 200) {
+            hoahong = doanhso * 5 / 200;
+        }
+        else if (doanhso >= 200&&doanhso <= 500) {
+            hoahong = doanhso * 10 / 500;
+        }
+        else if (doanhso > 500) {
+            hoahong = doanhso * 20 / 500;
+        }
+        alert(hoahong);
+    }
+</script>
+</body>
+</html>

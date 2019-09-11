@@ -30,6 +30,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,7 +70,9 @@
       <workItem from="1568010990678" duration="11401000" />
       <workItem from="1568077336557" duration="18689000" />
       <workItem from="1568120468623" duration="1401000" />
-      <workItem from="1568163941541" duration="878000" />
+      <workItem from="1568163941541" duration="11834000" />
+      <workItem from="1568186777630" duration="413000" />
+      <workItem from="1568187212913" duration="2092000" />
     </task>
     <servers />
   </component>
@@ -88,5 +91,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bàitap7/ex5.html</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
