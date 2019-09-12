@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+   <script>
+       const num=prompt("nhập vào chuỗi số");
+       const str = num.toString();
+       const result = [];
+       for (let x=0; x<str.length; x++)
+       {
+           if (str[x] %2 == 0) {
+               result.push('-', [str[x]]);
+           }else
+               result.push([str[x]])
+       }
+       document.write(result.join(''));
+   </script>
+</body>
+</html>
