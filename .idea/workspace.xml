@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,7 +78,8 @@
       <workItem from="1568282366112" duration="1122000" />
       <workItem from="1568337128149" duration="17214000" />
       <workItem from="1568539117054" duration="78000" />
-      <workItem from="1568595663599" duration="11603000" />
+      <workItem from="1568595663599" duration="16557000" />
+      <workItem from="1568682224335" duration="5782000" />
     </task>
     <servers />
   </component>
@@ -110,6 +111,10 @@
           <url>file://$PROJECT_DIR$/bàitap8/ex1.html</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/session6/examphe2.js</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
