@@ -17,9 +17,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/session7" />
   </component>
   <component name="ProjectId" id="1QOfynyw6e5Qh9lSF5jlA5D8N6r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -79,7 +80,8 @@
       <workItem from="1568337128149" duration="17214000" />
       <workItem from="1568539117054" duration="78000" />
       <workItem from="1568595663599" duration="16557000" />
-      <workItem from="1568682224335" duration="5782000" />
+      <workItem from="1568682224335" duration="9584000" />
+      <workItem from="1568768365937" duration="12030000" />
     </task>
     <servers />
   </component>

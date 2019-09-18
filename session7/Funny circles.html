@@ -4,7 +4,8 @@
     <title>Funny Circle</title>
 </head>
 <body>
-<canvas id="myCanvas" width="600px" height="300px" style="border:1px solid #d3d3d3;"></canvas>
+<canvas id="myCanvas" width="700px" height="400px" style="border:1px solid #d3d3d3;"></canvas>
+
 <script>
     function Circle(x, y, radius) {
         this.x = x;
@@ -12,19 +13,10 @@
         this.radius = radius;
     }
 
-    function createCircle() {
-       let ctx = document.getElementById("myCanvas").getContext("2d");
-       let circle = new Circle(Math.random()*400,Math.random()*300,Math.random()*150);
-        ctx.beginPath();
-        ctx.arc(circle.x, circle.y, circle.radius, 0, 2* Math.PI);
-        ctx.fill();
-    }
-    createCircle12();
-    // createCircle();
-
     function getRandomHex() {
         return Math.floor(Math.random() * 255);
     }
+
 
     function getRandomColor() {
         let red = getRandomHex();
@@ -32,6 +24,7 @@
         let blue = getRandomHex();
         return "rgb(" + red + "," + blue + "," + green + ")";
     }
+
 
     function createCircle12() {
         let ctx = document.getElementById("myCanvas").getContext("2d");
@@ -45,6 +38,13 @@
         ctx.fillStyle = color;
         ctx.fill();
     }
+
+
+     function multy() {
+         setInterval(createCircle12, 10)
+     }
+
+     multy();
 </script>
 </body>
 </html>
