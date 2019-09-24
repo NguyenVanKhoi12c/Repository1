@@ -57,7 +57,6 @@ let Info = function (stt, name, singer, author, linkMusic) {
         return this.stt + this.name + this.singer + this.author + this.linkMusic;
     };
 };
-
 let info1 = new Info("1", "Anh Muốn Nghe Giọng Em Nói", "Nguyên", "Nguyên", "Anh-Muon-Nghe-Giong-Em-Nguyen-LYM-eth.mp3");
 let info2 = new Info("2", "Anh Muốn Biết Sự Thật", "DC Tâm", "Dương Nhất Linh", "Anh-Muon-Biet-Su-That-Duong-Nhat-Linh.mp3");
 let info3 = new Info("3", "Ánh Dương", "Nguyên", "Nguyên,eth", "Anh-Duong-Nguyen-eth.mp3");
@@ -78,17 +77,17 @@ library.music.push(info1, info2, info3, info4, info5, info6, info7, info8, info9
 
 function create() {
     for (let i = 0; i < library.music.length; i++) {
-        select.options[select.options.length]=new Option(library.music[i].getName(), library.music[i].getStt());
+        select.options[select.options.length]=new Option(library.music[i].getName(), library.music[i].getStt()-1);
     }
 }
 
 function selectMusic() {
-    let i = select.options[select.selectedIndex].value;
-    document.getElementById('demo1').innerHTML = library.music[i].getStt();
-    document.getElementById('demo2').innerHTML = library.music[i].getName();
+    let index = select.options[select.selectedIndex].value;
+    document.getElementById('demo1').innerHTML = library.music[index].getStt();
+    document.getElementById('demo2').innerHTML = library.music[index].getName();
     document.getElementById('demo3').innerHTML = `<audio controls>
-                   <source src="${library.music[i].getLinkMusic()}"></audio>`;
-    document.getElementById('demo4').innerHTML = library.music[i].getAuthor();
-    document.getElementById('demo5').innerHTML = library.music[i].getSinger();
+                   <source src="${library.music[index].getLinkMusic()}"></audio>`;
+    document.getElementById('demo4').innerHTML = library.music[index].getAuthor();
+    document.getElementById('demo5').innerHTML = library.music[index].getSinger();
 }
 
