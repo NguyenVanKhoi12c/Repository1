@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minh Music</title>
+    <style>
+        table, th, td {
+            border: 1px solid pink;
+        }
+    </style>
+</head>
+<body background="7.jpg" onload="create()">
+<fieldset>
+    <h1>
+        <legend style="color: darkmagenta">My Music</legend>
+    </h1>
+    <div>
+        <table class="table" style="border: 1px solid black;">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col" style="height: 40px; width: 300px">STT</th>
+                <th scope="col" style="height: 40px; width: 300px">Tên Bài Hát</th>
+                <th scope="col" style="height: 40px; width: 300px">Play</th>
+                <th scope="col" style="height: 40px; width: 300px">Ca Sĩ</th>
+                <th scope="col" style="height: 40px; width: 300px">Tác Giả</th>
+            </tr>
+            <tr>
+                <th id="demo1"></th>
+                <th id="demo2"></th>
+                <th id="demo3"></th>
+                <th id="demo4"></th>
+                <th id="demo5"></th>
+            </tr>
+
+            </thead>
+
+        </table>
+
+    </div>
+    <h2>Danh Sách Bài Hát</h2>
+    <select style="color: red" id="select" onchange="selectMusic()">
+
+    </select>
+</fieldset>
+<script src="Music.js"></script>
+
+
+</body>
+</html>
+

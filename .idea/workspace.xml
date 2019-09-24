@@ -11,20 +11,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/session7" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QOfynyw6e5Qh9lSF5jlA5D8N6r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/session4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bài thi CRUD" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,12 +36,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\Repository1\bài thi CRUD" />
+      <recent name="E:\Git\Repository1\session8" />
+      <recent name="E:\Git\Repository1\session7" />
+      <recent name="E:\Git\Repository1\session4" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Repository1\bài thi CRUD" />
+      <recent name="E:\Git\Repository1\session7" />
       <recent name="E:\Git\Repository1\session4" />
       <recent name="E:\Git\Repository1\bàitâp6" />
       <recent name="E:\Git\Repository1\baitap3" />
-      <recent name="E:\Git\Repository1\bàitap2" />
-      <recent name="E:\Git\Repository1\bàitap1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +89,16 @@
       <workItem from="1568539117054" duration="78000" />
       <workItem from="1568595663599" duration="16557000" />
       <workItem from="1568682224335" duration="9584000" />
-      <workItem from="1568768365937" duration="12030000" />
+      <workItem from="1568768365937" duration="15010000" />
+      <workItem from="1568855169338" duration="6787000" />
+      <workItem from="1568875156410" duration="10827000" />
+      <workItem from="1568941285384" duration="33143000" />
+      <workItem from="1568999215496" duration="599000" />
+      <workItem from="1569078229668" duration="248000" />
+      <workItem from="1569170205139" duration="4087000" />
+      <workItem from="1569200354627" duration="14664000" />
+      <workItem from="1569253646899" duration="2751000" />
+      <workItem from="1569286817176" duration="10965000" />
     </task>
     <servers />
   </component>
